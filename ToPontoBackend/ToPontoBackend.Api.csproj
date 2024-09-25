@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper.Collection" Version="10.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
@@ -14,10 +15,6 @@
     <ProjectReference Include="..\ToPontoBackend.Application\ToPontoBackend.Application.csproj" />
     <ProjectReference Include="..\ToPontoBackend.CrossCutting\ToPontoBackend.CrossCutting.csproj" />
     <ProjectReference Include="..\ToPontoBackend.Domain\ToPontoBackend.Domain.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Controllers\" />
   </ItemGroup>
 
 </Project>
